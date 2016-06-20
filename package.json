@@ -1,0 +1,24 @@
+{
+  "name": "allex_defermaplowlevellib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm mocha -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allex-lowlevel-libs/defermap.git"
+  },
+  "keywords": [
+    "ecosystem:allex",
+    "promise",
+    "map"
+  ],
+  "author": "HERS development team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allex-lowlevel-libs/defermap/issues"
+  },
+  "homepage": "https://github.com/allex-lowlevel-libs/defermap#readme"
+}
