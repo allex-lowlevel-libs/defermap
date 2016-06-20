@@ -58,6 +58,10 @@ function createlib (Map, q) {
     }
   };
 
+  DeferMap.prototype.exists = function (name) {
+    return !!this._map.get(name);
+  };
+
   return DeferMap;
 }
 
