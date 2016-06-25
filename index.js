@@ -38,14 +38,14 @@ function createlib (Map, q) {
   };
 
   DeferMap.prototype.resolve = function (name, result) {
-    var d = this._map.get(name);
+    var d = this._map.remove(name);
     if (d) {
       d.resolve(result);
     }
   };
 
   DeferMap.prototype.reject = function (name, reason) {
-    var d = this._map.get(name) 
+    var d = this._map.remove(name);
     if (d){
       d.reject(reason);
     }
