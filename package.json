@@ -10,6 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/allex-lowlevel-libs/defermap.git"
   },
+  "devDependencies": {
+    "allex_checkslowlevellib": "1.x",
+    "allex_functionmanipulationlowlevellib": "1.x",
+    "allex_doublelinkedlistbaselowlevellib": "1.x",
+    "allex_inheritlowlevellib": "3.x",
+    "allex_eventemitterlowlevellib": "2.x",
+    "allex_fifolowlevellib": "1.x",
+    "allex_timeoutlowlevellib": "1.x",
+    "allex_qlowlevellib": "1.x",
+    "allex_avltreelowlevellib": "1.x",
+    "allex_maplowlevellib": "1.x",
+    "chai": "3.x"
+  },
   "keywords": [
     "ecosystem:allex",
     "promise",
